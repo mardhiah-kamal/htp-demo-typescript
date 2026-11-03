@@ -52,16 +52,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: .
           VALIDATE_ALL_CODEBASE: true
-          
+
           # Explicitly turn off the failing TypeScript ESLint engine
-          VALIDATE_TYPESCRIPT_ES: false       # Disables TYPESCRIPT_ES ❌
-          
+          VALIDATE_TYPESCRIPT_ES: false # Disables TYPESCRIPT_ES ❌
+
           # Keep the formatting checkers disabled
-          VALIDATE_MARKDOWN_PRETTIER: false   # Disables MARKDOWN_PRETTIER ❌
+          VALIDATE_MARKDOWN_PRETTIER: false # Disables MARKDOWN_PRETTIER ❌
           VALIDATE_TYPESCRIPT_PRETTIER: false # Disables TYPESCRIPT_PRETTIER ❌
           VALIDATE_TYPESCRIPT_STANDARD: false # Disables TYPESCRIPT_STANDARD ❌
-          VALIDATE_YAML_PRETTIER: false       # Disables YAML_PRETTIER ❌
-          
+          VALIDATE_YAML_PRETTIER: false # Disables YAML_PRETTIER ❌
+
           # Keep template defaults disabled
           VALIDATE_BIOME_FORMAT: false
           VALIDATE_BIOME_LINT: false
