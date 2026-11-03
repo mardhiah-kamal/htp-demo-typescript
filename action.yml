@@ -1,6 +1,6 @@
-name: The name of your action here
-description: Provide a description here
-author: Your name or organization here
+name: 'TypeScript Action Recipe'
+description: 'Waits for some milliseconds, writes an awesome job summary to the workflow output and returns the current date and time.'
+author: 'Mardhiah Kamal'
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
@@ -10,14 +10,14 @@ branding:
 # Define your inputs here.
 inputs:
   milliseconds:
-    description: Your input description here
+    description: 'Try lu jadi tak'
     required: true
     default: '1000'
 
 # Define your outputs here.
 outputs:
   time:
-    description: Your output description here
+    description: 'Jadi wehhhh'
 
 runs:
   using: node24
